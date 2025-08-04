@@ -24,6 +24,7 @@ html, body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 2px 0px 2px;
 }
 
 .player-button {
@@ -32,20 +33,8 @@ html, body {
   color: white;
   background-color: transparent;
   font-size: 20px;
-  line-height: 40px;
-  width: 32px;
-}
-
-.player-button.play {
-  margin-left: 2px;
-}
-
-.player-button.volume {
-  margin-left: 5px;
-}
-
-.player-button.fullscreen {
-  margin-right: 2px;
+  width: 37px;
+  height: 42px;
 }
 
 .left-buttons {
@@ -61,21 +50,26 @@ html, body {
 }
 
 .progressbar {
-  height: 6px;
-  border-radius: 2px;
-  margin-left: 4px;
-}
-
-.progressbar.progress {
   display: flex;
   flex: 1 1 100%;
   align-items: center;
+  margin-left: 2px;
+  justify-content: space-between;
+}
+
+.progress {
+  display: flex;
+  height: 6px;
+  flex: 1 1 100%;
   background-color: black;
   margin-right: 4px;
 }
 
-.progressbar.slider {
+.slider {
+  height: 5px;
   background-color: #f8104d;
+  border-radius: 3px;
+  margin-left: 10px;
 }
 
 .dot {
@@ -85,6 +79,8 @@ html, body {
   border-radius: 50%;
   display: inline-block;
   border: 3px solid white;
+  margin-left: -8px;
+  margin-top: -5px;
   opacity: 0;
   transition-duration: 1000ms
 }
