@@ -18,35 +18,35 @@ html, body {
 }
 
 .buttons-area {
-  flex: 1 0 auto;
-  background: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 2px 0px 2px;
+ background: black;
+ flex: 1 0 auto;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ padding: 0px 2px 0px 2px;
+ align-items: center;
 }
 
 .player-button {
+  width: 37px;
+  height: 42px;
   border-style: none;
   cursor: pointer;
   color: white;
   background-color: transparent;
   font-size: 20px;
-  width: 37px;
-  height: 42px;
 }
 
-.left-buttons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.left-buttons{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
 }
 
 .right-buttons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
 }
 
 .progressbar {
@@ -57,19 +57,19 @@ html, body {
   justify-content: space-between;
 }
 
-.progress {
-  display: flex;
-  height: 6px;
-  flex: 1 1 100%;
-  background-color: black;
-  margin-right: 4px;
+.progress { 
+    display: flex;
+    height: 6px;
+    flex: 1 1 100%;
+    background-color: black;
+    margin-right: 4px;
 }
 
 .slider {
-  height: 5px;
-  background-color: #f8104d;
-  border-radius: 3px;
-  margin-left: 10px;
+    height: 5px;
+    background-color: #f8104d;
+    border-radius: 3px;
+    margin-left: 10px;
 }
 
 .dot {
